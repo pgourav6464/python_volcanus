@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+        img{border: 4px solid white;
+            height: 300px;
+            width: 300px;
+        }
+        img:hover{
+            border-radius: 100%;
+            height: 500px;
+            width: 500px;
+            transition:ease 2s;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="https://cdn.pixabay.com/photo/2020/01/02/06/29/goku-4735092_640.jpg" alt="">
+        <img src="https://cdn.pixabay.com/photo/2023/06/02/07/12/ai-generated-8034944_640.jpg" alt="">
+        <img src="https://cdn.pixabay.com/photo/2023/08/15/01/02/purple-8191040_640.jpg" alt="">
+        <img src="https://cdn.pixabay.com/photo/2020/08/18/23/11/goku-5499563_640.png" alt="">
+        <img src="https://cdn.pixabay.com/photo/2020/11/07/13/05/character-5720913_640.png" alt="">
+    </div>
+    
+</body>
+</html>

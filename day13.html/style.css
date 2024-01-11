@@ -1,0 +1,136 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+  *{
+      margin: 0;
+      padding: 0;
+  }
+  body{
+      background-color: black;
+      color: white;
+      height: 100vh;
+      overflow: hidden;
+  }
+  
+  .side_bar{
+      overflow: hidden;
+      height: 100vh;
+      width: 18%;
+      /* border-right: 0.1px solid white; */
+      outline: 1px solid white;
+  
+  
+  }
+  .side_menu{
+      padding: 30px;
+  }
+  .item{
+      padding: 17px;
+      font-size: 1.1rem;
+  
+  }
+  .fa-solid{
+      margin-right: 10px;
+  }
+  .item h2{
+      font-family: Pacifico;
+  }
+  
+  .post_section{
+      width: 750px;
+      display: flex;
+  
+      /* border-right: 2px solid white; */
+  
+  }
+  .post_stories{
+      display: flex;
+      height: 85px;
+      gap: 1rem;
+      position: relative;
+      left: 40px;
+      top: 40px;
+     
+  }
+  .story{
+      height: 60px;
+      width: 60px;
+      border-radius: 100%;
+      border: 3px solid yellow;
+   
+      
+  }
+  .instagram{
+      display: flex;
+      /* justify-content: center; */
+  
+  }
+  .person_img{
+    
+  }
+  
+  .person_img img{
+  
+    
+      height: 55px;
+      width: 55px;
+      border-radius: 100%;
+      border: 2px solid yellow;
+  }
+  .suggestion{
+      /* display: flex; */
+      /* justify-content: center; */
+      border: 2px solid white;
+      width: 400px;
+     
+  }
+  .person{
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+      gap: 1rem;
+  
+      position: relative;
+      left: px;
+      top: 50px; 
+      /* font-size: 25px;   */
+  }
+  .switch a{
+      position: relative;
+      left: 50px;
+      color: blue;
+      text-decoration: none;
+  }
+  .suggest_person{
+      display: flex;
+      position: relative;
+      top: 70px;
+      left: 25px;
+      /* font-size: 20px; */
+  }
+  .suggest_person a{
+      position: relative;
+      left: 117px;
+      text-decoration: none;
+      color: white;
+  }
+  .suggest_person h3{
+      color: rgba(240, 248, 255, 0.631);
+  }
+  .pro{
+      display: flex; 
+      /* justify-content: center;  */
+      align-items: center;
+      gap: 1rem;
+      position: relative;
+      top: 50px;
+  
+     
+  }
+  .pro img{
+      height: 55px;
+      width: 55px;
+      border-radius: 100%;
+      border: 2px solid yellow;
+  }
+  
+  

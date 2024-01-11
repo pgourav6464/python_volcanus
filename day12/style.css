@@ -1,0 +1,224 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    overflow: hidden;
+}
+/* insta gram class */
+.instagram{
+    display: flex;
+
+}
+/* side bar */
+.side_bar{
+    overflow: hidden;
+    height: 100vh;
+    width: 18%;
+    /* border-right: 0.1px solid white; */
+    outline: 1px solid rgba(255, 255, 255, 0.566);
+
+
+}
+.side_menu{
+    padding: 30px;
+}
+.item{
+    padding: 17px;
+    font-size: 1.1rem;
+
+}
+.fa-solid{
+    margin-right: 10px;
+}
+.item h2{
+    font-family: Pacifico;
+}
+
+
+/* post section */
+.post_section{
+    width: 750px;
+    display: flex;
+    
+
+}
+.post_stories{
+    height: 85px;
+    position: relative;
+    left: 40px;
+    top: 25px;
+   
+}
+.story{
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+    border: 4px solid transparent ;
+  border: 4px solid rgba(228, 170, 34, 0.939);
+  border-radius: 100%;
+    
+}
+
+.photo img{
+    height: 350px;
+    width: 390px;
+    position: relative;
+    top: 50px;
+         
+}
+.post_contain{
+    /* display: flex; */
+  
+    justify-content: center;
+    position: relative; 
+ 
+}
+.post_details{
+
+    display: flex;
+  
+    position: relative;
+    top: 40px;
+    left: 40px;
+    align-items: center;
+    gap: 1rem;
+    font-size: 13px;
+    /* background-color: aqua; */
+}
+.post_details img {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
+
+.like{
+
+
+    display: flex;
+    position: relative;
+    font-size: 25px;
+    top: 60px;
+    gap: 1rem;
+    left: 130px;
+    justify-content: start;
+
+}
+
+.like .fa-solid{
+    color:red;
+
+}
+.save{
+    position: relative;
+    left: 240px;
+}
+.names{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    /* padding: 20px; */
+    
+    font-size: 15px;
+}
+.post_details p{
+    font-size: 30px;
+    position: relative;
+    left: 260px;
+    bottom: 10px;
+}
+.post_details h4{
+    color: rgba(240, 248, 255, 0.851);
+}
+
+
+/* suggestion bar */
+
+.suggestion{  
+    width: 400px; 
+    /* font-size: 15px;  */
+}
+
+
+.switch a{
+    position: relative;
+    left: 45px;
+    color: blue;
+    text-decoration: none;
+}
+.suggest_person{
+    display: flex;
+    position: relative;
+    top: 70px;
+    left: 25px;
+    gap: 2rem;
+}
+.suggest_person a{
+    position: relative;
+    left: 97px;
+    text-decoration: none;
+    color: blue 
+}
+.suggest_person h3{
+    color: rgba(240, 248, 255, 0.631);
+}
+.sprofile{
+    display: flex; 
+
+    gap: 1rem;
+    position: relative;
+    top: 50px;
+    left: 25px;}
+
+.sprofile img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.sprofile h4{
+    position: relative;
+    top: 30px;
+    font-size: large;
+    color: rgba(240, 248, 255, 0.566);
+}
+
+.suggest_person img {
+    margin-bottom: 30px;
+    height: 50px;
+    width: 50px;
+   border: 2px solid white;
+    border-radius: 100%;
+    position: relative;
+    top: 30px;
+  
+}
+.suggestd_person_details{
+    position: relative;
+    top: 40px;
+   
+    font-size: 12px;
+}
+.suggestd_person_details p {
+    color: rgba(240, 248, 255, 0.676);
+}
+.suggestd_person_details a{
+    position: relative;
+    bottom: 40px;
+    left: 186px;
+    font-size: 16px;
+}
+#white{
+    color: white;
+}
+
+
+
+
+
+

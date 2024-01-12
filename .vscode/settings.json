@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "livePreview.defaultPreviewPath": "c:\\Users\\sourabh\\Desktop\\Gourav\\python_volcanus\\day16\\index.html"
 }

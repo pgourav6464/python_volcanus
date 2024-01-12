@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day 16</title>
     <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
         .mainimg img{
             height: 500px;
             width: 300px;
         }
         .mainimg{
             display: flex;
-            
             position: relative;
             justify-content: center;
             align-items: center;
-         
             background-color: aqua;
             height: 500px;
             width: 300px;
@@ -40,6 +42,8 @@
             width: 50px;
             border-radius: 100%;
             border: 2px solid white;
+            /* z-index: 2; */
+
         }
         
         .mainimg p{
@@ -86,12 +90,19 @@
             padding: 20px;
             position: fixed;
             width: 100%;
+            z-index: 100;
         }
        
     </style>
 </head>
 
 <body>
+    <div class="navbar">
+        <div class="item">home </div>
+        <div class="item">about</div>
+        <div class="item">team</div>
+        <div class="item">contact</div>
+    </div>
     
 
     <div class="mainbox"> 
@@ -133,12 +144,7 @@
     
 </section>
 
-    <div class="navbar">
-        <div class="item">home </div>
-        <div class="item">about</div>
-        <div class="item">team</div>
-        <div class="item">contact</div>
-    </div>
+   
 
 
 </body>

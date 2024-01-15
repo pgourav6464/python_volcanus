@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 18</title>
+    <style>
+        .container{
+            height: 40vh;
+            width: 80%;
+            background-color: aqua;
+            margin: auto;
+
+        }
+        .inline{
+            height: 200px;
+            width: 200px;
+            background-color: blueviolet;
+              
+        }
+        .inlinblock{
+            
+            display: inline-block;
+            height: 100px;
+            width: 100px;
+            background-color: chartreuse;
+        }
+        .image img{
+            height: 400px;
+            width: 400px;
+            margin: auto;
+            display: block;
+        }
+        .image{
+            height: 500px;
+            width: 500px;
+            margin: auto;
+            background-color: brown;
+        }
+        div > p{
+            color: rgb(255, 64, 0);
+        }
+        div + p {
+            background-color: black;
+            color: rgb(11, 192, 195);
+        }
+
+        div ~ p{
+            background-color: blueviolet;
+        }
+
+        div p:nth-child(1){
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="inline">
+            jai shree ram
+        </span>
+        <br>
+        <span class="inlinblock">
+            jai shree ram
+            </span> 
+
+    </div>
+    
+
+    <div class="image">
+        <img src="https://cdn.pixabay.com/photo/2023/06/10/14/48/giraffe-8054174_640.jpg" alt="">
+    </div>
+
+    <!-- COMBINATER > + (~)-->
+    <div class="con">
+        <p>Ashish</p>
+        <p>Gaurav</p>
+        <section>
+            <p>Anurag</p>
+        </section>
+        <p>Sahil</p>
+        <p>abhishek</p>
+       
+    </div>
+    <p>hitesh</p>
+    <p>rahul</p>
+    <div>
+
+    </div>
+    <p>spider man</p>
+    <p>marvel</p>
+    
+</body>
+</html>

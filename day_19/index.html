@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psudo class</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        a{
+            font-size: 30px;
+            
+        }
+        /* unvisited link */
+a:link {
+  color: #FF0000;
+  font-size: 20px;
+}
+
+/* visited link */
+a:visited {
+  color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+  color: #0000FF;
+}
+
+p:nth-child(2){
+    background-color: #00FF00;
+}
+input{
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+}
+input::placeholder{
+   /* text-align: center; */
+   color: #00FF00;
+   padding: 10px;
+}
+img{
+    /* margin: auto; */
+    opacity: 0.5;
+    height: 200px;
+}
+    </style>
+</head>
+<body>
+    <a href="https://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank">Open w3schools </a>
+
+    <!-- <div class="d">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, harum obcaecati. Culpa quod dolorum excepturi sit nisi expedita, repellendus numquam.</p>
+    </div> -->
+
+<!-- 
+    <div >
+        
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempore rem est tempora quasi ipsa? Magnam doloremque maiores distinctio cumque.
+        </p> 
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempore rem est tempora quasi ipsa? Magnam doloremque maiores distinctio cumque.
+        </p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempore rem est tempora quasi ipsa? Magnam doloremque maiores distinctio cumque.
+        </p>
+      
+    </div>
+
+    <div >
+        
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempore rem est tempora quasi ipsa? Magnam doloremque maiores distinctio cumque.
+        </p> 
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempore rem est tempora quasi ipsa? Magnam doloremque maiores distinctio cumque.
+        </p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempore rem est tempora quasi ipsa? Magnam doloremque maiores distinctio cumque.
+        </p>
+        
+    </div>
+
+    <div >
+      
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempore rem est tempora quasi ipsa? Magnam doloremque maiores distinctio cumque.
+        </p> 
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempore rem est tempora quasi ipsa? Magnam doloremque maiores distinctio cumque.
+        </p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempore rem est tempora quasi ipsa? Magnam doloremque maiores distinctio cumque.
+        </p>
+        
+    </div> -->
+    <div class="input">
+        <input type="text" placeholder="Enter your bank balance">
+    </div>
+    
+  <img src="https://cdn.pixabay.com/photo/2023/06/10/14/48/giraffe-8054174_640.jpg" alt="">
+   
+    
+</body>
+</html>

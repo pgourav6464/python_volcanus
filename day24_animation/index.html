@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+
+        .box{
+            position: relative;
+            /* margin: auto; */
+            height: 100px;
+            width: 100px;
+            background-color: orange;
+            animation: parent 4s infinite;
+            border: 50px solid red;
+            border-radius: 100%;
+            animation-direction: alternate;
+
+        }
+
+        @keyframes parent{
+            /* from{
+                background-color: orange;
+            }
+            to{
+                background-color: aqua;
+                height: 200px;
+                width: 200px;
+            } */
+
+            0%{
+                left: 0px;
+                background-color: aqua;
+                border-color: blue;
+            }
+
+            25%{
+                background-color: blueviolet;
+                left: 400px;
+                top: 0px;
+                border-color: rgb(26, 255, 0);
+            }
+
+            50%{
+                background-color: chocolate;
+                top: 400px;
+                left: 400px;
+                border-color: rgb(230, 196, 196);
+
+            }
+
+            75%{
+                background-color: springgreen;
+                left: 0;
+                top: 400px;
+                border-color: blueviolet;
+                
+             
+
+            }
+
+            100%{
+                background-color: magenta;
+                top: 0;
+                
+            }
+        }
+
+        .box1{
+            border: 10PX SOLID yellow;
+            width: 500px;
+            height: 100px;
+        }
+
+        .box2{
+            border: 10PX SOLID yellow;
+            width: 500px;
+            height: 100px;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="box">
+        
+
+    </div> -->
+
+   <div class="box1">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque dolore adipisci delectus recusandae sequi voluptates non minima quasi quo corrupti.</p>
+   </div>
+<br>
+   <div class="box2">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque dolore adipisci delectus recusandae sequi voluptates non minima quasi quo corrupti.</p>
+   </div>
+    
+</body>
+</html>

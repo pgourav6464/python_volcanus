@@ -26,7 +26,7 @@
 // else{
 //     console.log("You need to sale your kidney... for buying i phone")
 // }
-
+// `````````````````ternery oprater````````````````````
 //  () ? () : ()
 
 // const dollar = 500
@@ -58,7 +58,7 @@
 //     case 7 :
 //     console.log("holiday")
 //     break ;
-    
+
 //     default:
 //         console.log("invalid day")
 //         break;

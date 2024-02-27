@@ -47,6 +47,12 @@
 
 // console.log(typeof number);
 
+let num = 20
+let num2 = "20"
+
+if(num==num2){
+    console.log("yes")
+}
 
 
 

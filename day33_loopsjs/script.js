@@ -41,20 +41,24 @@
 
 
 
-// const person ={
-//     Name: "ashish",
-//     surname:"yadav",
-//     height:4.2,
-//     school:"sarkari",
-//     age:18,
-//     freind:"gourav",
-//     favlag:"python",
-//     bike:"hornet",
-//     hair:"black",
-//     single:"yes"
+const person ={
+    Name: "ashish",
+    surname:"yadav",
+    height:4.2,
+    school:"sarkari",
+    age:18,
+    freind:"gourav",
+    favlag:"python",
+    bike:"hornet",
+    hair:"black",
+    single:"yes"
 
 
-// }
+}
+
+
+    
+
 
 // for ( let i in person){
 //     console.log(i ,"=",person[i])
@@ -66,17 +70,23 @@
 
 // ~~~~~~~~~~~~~~~~~for each loop ~~~~~~~~~~~~~~
 
-const arr = [10, 20, 50, "spiderman", 202.3554];
+const arr = [10, 20, 50,  1 , 55 , 40];
 
-arr.forEach((value, index ) => console.log(value , index ))
+num = 10 ;
+
+arr.forEach((value, index  ) => {
+    if (value>10){
+        console.log(value , index)
+    }
+})
 
 
 
 
-ar=[1,2,56,9,8,8,9,]
+// ar=[1,2,56,9,8,8,9,]
 
-ar.forEach((value, index) => {
-    if(value%2==0){
-    console.log(value, index);}
-});
+// ar.forEach((value, index) => {
+//     if(value%2==0){
+//     console.log(value, index);}
+// });
 

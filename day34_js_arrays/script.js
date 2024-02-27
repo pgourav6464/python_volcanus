@@ -24,4 +24,4 @@ arr.shift()
 console.log("remove   1stvalue using shift in array", arr);
 
 arr.unshift(500)
-console.log("remove   1stvalue using shift in array", arr);
+console.log("add  1stvalue using unshift in array", arr);

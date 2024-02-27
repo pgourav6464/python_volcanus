@@ -79,3 +79,8 @@
 // print();
 
 // console.log(pi())
+
+let num = 20 ;
+let num2 = 200 ;
+
+(num==num2) ? (console.log("yes")) :(console.log("no"))

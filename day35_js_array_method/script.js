@@ -17,10 +17,25 @@
 // console.log(newarr)
 
 
+
+
 // indexof 
 
 
 // let arry = ["lappy", "tab", "phone" , "phone"];
 // console.log("first index of elements = " , arry.indexOf("phone"))
 // console.log(" last index of elements = " , arry.lastIndexOf("phone"))
+
+const array = [1,5,6,8,4,65,4,4,6,4]
+
+let element = 6
+
+for (let x in array){
+    if(array[x]==element){
+        array.splice(x , 1)
+    }
+}
+
+
+console.log(array)
 

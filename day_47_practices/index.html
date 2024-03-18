@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            flex-wrap: wrap;
+            gap: 3rem;
+            margin-top: 50px;
+        }
+        .main{
+            height: 250px;
+            width: 250px;
+        }
+        .main img {
+            height: 100%;
+            width: 100%;
+            border: 3px solid rgb(218, 194, 9);
+        }
+        .input{
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            flex-direction: column;
+        }
+        input{
+            width: 400px;
+            padding: 10px;
+            border-radius: 20px;
+          
+        }
+        button{
+            height: 40px;
+            width: 110px;
+            border-radius: 10px;
+            color: white;
+            background-color: blue;
+            font-size: 17px;
+            margin-left: 20px;
+        }
+
+        .main img:hover{
+            transform: scale(1.1);
+            transition: 0.5s;
+        }
+        h1{
+            font-size: clamp(24px , 4vw, 40px);
+        }
+        @media(max-width:606px){
+            input{
+                width: 200px;
+            }
+            button{
+                width: 70px;
+                padding: 5px; 
+            height: 40px;           }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="input">
+        <h1>Image search by @Gourav</h1>
+        <div>
+        <input type="text">
+        <button>Search</button></div>
+    </div>
+    <div class="container"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

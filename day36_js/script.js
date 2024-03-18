@@ -23,7 +23,7 @@ console.log(result)
 
 const arr = [10, 52, 12, 32, 65, 20, 25, 35];
 
-const filterdata = arr.filter((e)=>e>30)
+const filterdata = arr.filter((e)=>e>30) //retun array
 
 console.log(filterdata)
 

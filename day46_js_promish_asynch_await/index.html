@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fetch data</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="fetch"></div>
+    
+    <script>
+        console.log("hello")
+
+
+        const fetchDataPromish=()=>{
+            return new Promise((resolve , reject)=>{
+                fetch("https://jsonplaceholder.typicode.com/users").then((res)=>{
+                    if(!res.ok){
+                        reject(`internal server error`)
+                    }
+                    resolve( res.json())
+                }).catch((err)=>{
+                reject(`data not availabel `)
+                })
+            })
+        }
+
+fetchDataPromish().then((data)=>console.log(data)).catch((err)=>console.log(err))
+    </script>
+</body>
+</html>

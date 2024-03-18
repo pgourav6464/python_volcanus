@@ -1,5 +1,6 @@
-setInterval (()=>{
 const date = new Date();
+setInterval (()=>{
+
 console.log(date);
 
 const crdate = date.getDate();
@@ -14,9 +15,9 @@ console.log(`today date is =${crdate}-${month}-${cryear}`);
 
 console.log(`current time is =${hour}:${minut}:${second}`);
 
-// const year = ["    " ]
+const year = ["    " ]
 
-// console.log("hello")
+ console.log("hello")
 const element = document.querySelector("h1");
 element.innerText = `current time is =${hour}:${minut}:${second}`;
 console.log(element);

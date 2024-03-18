@@ -74,9 +74,9 @@ const arr = [10, 20, 50,  1 , 55 , 40];
 
 num = 10 ;
 
-arr.forEach((value, index  ) => {
+arr.forEach((value, index ,array  ) => {
     if (value>10){
-        console.log(value , index)
+        console.log(value , index ,array)
     }
 })
 
